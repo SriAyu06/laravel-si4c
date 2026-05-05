@@ -4,9 +4,14 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class periode extends Model
+class Prodi extends Model
 {
-   
+   protected $fillable = [
+    'nama_prodi',
+    'singkatan',
+    'kaprodi',
+    'fakultas_id'
+];
 
 public function fakultas()
 {

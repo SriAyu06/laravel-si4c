@@ -4,6 +4,10 @@ use App\Http\Controllers\FakultasController;
 use App\Http\Controllers\PeriodeController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\ProdiController;
+
+Route::get('/prodi', [ProdiController::class, 'index']);
+
 Route::get('/', function () {
     return view('welcome');
 });
