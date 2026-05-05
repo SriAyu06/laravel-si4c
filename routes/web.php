@@ -9,7 +9,7 @@ use App\Http\Controllers\ProdiController;
 Route::get('/prodi', [ProdiController::class, 'index']);
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('fakultas.create');
 });
 
 Route::resource('/fakultas', FakultasController::class);
