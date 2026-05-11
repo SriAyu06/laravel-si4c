@@ -13,13 +13,13 @@
         <div class="mb-3">
             <h5>form pengisian data</h5>
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="NAMA" placeholder="MASUKKAN NAMA FAKULTAS">
+            <input type="text" class="form-control" id="NAMA" placeholder="MASUKKAN NAMA FAKULTAS">
 
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="singkatan" placeholder="MASUKKAN SINGKATAN FAKULTAS">
+            <input type="text" class="form-control" id="singkatan" placeholder="MASUKKAN SINGKATAN FAKULTAS">
 
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="dekan" placeholder="MASUKKAN NAMA DEKAN FAKULTAS">
+            <input type="text" class="form-control" id="dekan" placeholder="MASUKKAN NAMA DEKAN FAKULTAS">
             <button type="submit" class="brn btn-primary mt-3"> submit </button>
         </div>
 

@@ -14,7 +14,7 @@ class FakultasController extends Controller
     {
         // akses model fakultas
         $result = fakultas::all(); // select*from fakultas
-        dd($result);//dump data
+        // dd($result);//dump data
         //kirim kan data fakultas ke view
         //return data ('fskultas'.index)->with ('result',$result);
         return view('fakultas.index', compact('result'));
