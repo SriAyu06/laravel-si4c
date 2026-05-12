@@ -4,6 +4,7 @@
 
 @section('content')
 <h2>Data Fakultas</h2>
+<a href="{{ route('fakultas.create') }}" class="btn btn-primary">tambah data</a>
 <table class ="table table-bordered table-hover">
     <tr>
         <th>nama fakultas</th>
