@@ -1,7 +1,7 @@
 @extends('main')
 @section('content')
 <h1>Data Prodi</h1>
-
+<a href="{{ route('prodi.create') }}" class="btn btn-primary">tambah data</a>
 <table border="1" cellpadding="10">
     <tr>
         <th>No</th>

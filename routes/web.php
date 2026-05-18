@@ -13,6 +13,6 @@ Route::get('/', function () {
 });
 
 Route::resource('/fakultas', FakultasController::class);
-
-Route::resource('/peroide', PeriodeController::class);
+Route::resource('/prodi', ProdiController::class);
+Route::resource('/periode', PeriodeController::class);
 route::resource('/berita', BeritaController::class);
